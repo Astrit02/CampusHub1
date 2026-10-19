@@ -1,0 +1,326 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Instructors | CampusHub University Portal</title>
+</head>
+<body>
+
+    <header>
+        <a href="index.html" aria-label="CampusHub home">
+            <img
+                src="images/campushub-logo.png"
+                alt="CampusHub university portal logo"
+            >
+        </a>
+
+        <h1>CampusHub</h1>
+        <p>Your gateway to university life.</p>
+
+        <nav aria-label="Main navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="instructors.html" aria-current="page">Instructors</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="announcements.html">Announcements</a></li>
+                <li><a href="schedule.html">Schedule</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section aria-labelledby="instructors-heading">
+            <h2 id="instructors-heading">Our Instructors</h2>
+
+            <p>
+                Meet the dedicated educators and experienced professionals
+                who support our students throughout their academic journeys.
+                Explore their areas of expertise and discover the people
+                behind our university courses.
+            </p>
+        </section>
+
+        <section aria-labelledby="instructor-search-heading">
+            <h2 id="instructor-search-heading">Find an Instructor</h2>
+
+            <form action="instructors.html" method="get">
+                <div>
+                    <label for="instructor-search">
+                        Search by instructor name or expertise
+                    </label>
+                    <input
+                        type="search"
+                        id="instructor-search"
+                        name="search"
+                        placeholder="e.g. software engineering"
+                    >
+                </div>
+
+                <div>
+                    <label for="department">Department</label>
+                    <select id="department" name="department">
+                        <option value="">All Departments</option>
+                        <option value="computer-science">Computer Science</option>
+                        <option value="information-technology">Information Technology</option>
+                        <option value="business">Business</option>
+                        <option value="arts-design">Arts and Design</option>
+                        <option value="languages">Languages</option>
+                        <option value="engineering">Engineering</option>
+                    </select>
+                </div>
+
+                <button type="submit">Search Instructors</button>
+            </form>
+
+            <p>
+                This is a demonstration search form. Searching and filtering
+                require a server-side application, which is not included here.
+            </p>
+        </section>
+
+        <section aria-labelledby="instructor-directory-heading">
+            <h2 id="instructor-directory-heading">Meet Our Faculty</h2>
+
+            <article>
+                <img
+                    src="images/instructor-alex-morgan.jpg"
+                    alt="Portrait of Dr. Alex Morgan, a sample computer science instructor"
+                >
+
+                <h3>Dr. Alex Morgan</h3>
+                <p>Academic Title: Associate Professor</p>
+                <p>Department: Computer Science</p>
+
+                <h4>Areas of Expertise</h4>
+                <ul>
+                    <li>Web Development</li>
+                    <li>Software Engineering</li>
+                    <li>Human-Computer Interaction</li>
+                </ul>
+
+                <p>
+                    Dr. Morgan focuses on software development and accessible
+                    web technologies, helping students connect programming
+                    fundamentals with practical projects.
+                </p>
+
+                <p>
+                    <a href="instructor-profiles/alex-morgan.html">
+                        View Profile: Dr. Alex Morgan
+                    </a>
+                </p>
+            </article>
+
+            <article>
+                <img
+                    src="images/instructor-sophia-bennett.jpg"
+                    alt="Portrait of Professor Sophia Bennett, a sample database systems instructor"
+                >
+
+                <h3>Prof. Sophia Bennett</h3>
+                <p>Academic Title: Professor</p>
+                <p>Department: Information Technology</p>
+
+                <h4>Areas of Expertise</h4>
+                <ul>
+                    <li>Database Systems</li>
+                    <li>Data Management</li>
+                    <li>Information Systems</li>
+                </ul>
+
+                <p>
+                    Professor Bennett teaches students how to organize,
+                    analyze, and manage information using database design
+                    principles and modern data technologies.
+                </p>
+
+                <p>
+                    <a href="instructor-profiles/sophia-bennett.html">
+                        View Profile: Prof. Sophia Bennett
+                    </a>
+                </p>
+            </article>
+
+            <article>
+                <img
+                    src="images/instructor-daniel-reed.jpg"
+                    alt="Portrait of Dr. Daniel Reed, a sample business instructor"
+                >
+
+                <h3>Dr. Daniel Reed</h3>
+                <p>Academic Title: Senior Lecturer</p>
+                <p>Department: Business</p>
+
+                <h4>Areas of Expertise</h4>
+                <ul>
+                    <li>Digital Marketing</li>
+                    <li>Business Strategy</li>
+                    <li>Market Research</li>
+                </ul>
+
+                <p>
+                    Dr. Reed introduces students to marketing strategy,
+                    consumer behavior, and the use of research to support
+                    business decisions.
+                </p>
+
+                <p>
+                    <a href="instructor-profiles/daniel-reed.html">
+                        View Profile: Dr. Daniel Reed
+                    </a>
+                </p>
+            </article>
+
+            <article>
+                <img
+                    src="images/instructor-emily-carter.jpg"
+                    alt="Portrait of Professor Emily Carter, a sample graphic design instructor"
+                >
+
+                <h3>Prof. Emily Carter</h3>
+                <p>Academic Title: Associate Professor</p>
+                <p>Department: Arts and Design</p>
+
+                <h4>Areas of Expertise</h4>
+                <ul>
+                    <li>Graphic Design</li>
+                    <li>Typography</li>
+                    <li>Visual Communication</li>
+                </ul>
+
+                <p>
+                    Professor Carter helps students develop visual
+                    communication skills through creative problem-solving,
+                    design principles, and digital media projects.
+                </p>
+
+                <p>
+                    <a href="instructor-profiles/emily-carter.html">
+                        View Profile: Prof. Emily Carter
+                    </a>
+                </p>
+            </article>
+
+            <article>
+                <img
+                    src="images/instructor-michael-hayes.jpg"
+                    alt="Portrait of Dr. Michael Hayes, a sample English language instructor"
+                >
+
+                <h3>Dr. Michael Hayes</h3>
+                <p>Academic Title: Lecturer</p>
+                <p>Department: Languages</p>
+
+                <h4>Areas of Expertise</h4>
+                <ul>
+                    <li>English Language</li>
+                    <li>Academic Writing</li>
+                    <li>Communication Skills</li>
+                </ul>
+
+                <p>
+                    Dr. Hayes supports students in strengthening their
+                    academic writing, reading comprehension, and spoken
+                    communication for university and professional settings.
+                </p>
+
+                <p>
+                    <a href="instructor-profiles/michael-hayes.html">
+                        View Profile: Dr. Michael Hayes
+                    </a>
+                </p>
+            </article>
+
+            <article>
+                <img
+                    src="images/instructor-olivia-parker.jpg"
+                    alt="Portrait of Dr. Olivia Parker, a sample electrical engineering instructor"
+                >
+
+                <h3>Dr. Olivia Parker</h3>
+                <p>Academic Title: Assistant Professor</p>
+                <p>Department: Engineering</p>
+
+                <h4>Areas of Expertise</h4>
+                <ul>
+                    <li>Electrical Engineering</li>
+                    <li>Electronic Circuits</li>
+                    <li>Renewable Energy Systems</li>
+                </ul>
+
+                <p>
+                    Dr. Parker teaches engineering fundamentals and encourages
+                    students to apply analytical thinking to circuits,
+                    electronics, and sustainable energy technologies.
+                </p>
+
+                <p>
+                    <a href="instructor-profiles/olivia-parker.html">
+                        View Profile: Dr. Olivia Parker
+                    </a>
+                </p>
+            </article>
+        </section>
+
+        <section aria-labelledby="faculty-contact-heading">
+            <h2 id="faculty-contact-heading">Connect with Our Faculty</h2>
+
+            <p>
+                Have questions about a course or an academic subject?
+                Explore the course catalog or contact the university's
+                academic support office for further guidance.
+            </p>
+
+            <p>
+                <a href="courses.html">Explore Our Courses</a>
+            </p>
+
+            <p>
+                <a href="schedule.html">View the Academic Schedule</a>
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <section aria-labelledby="footer-about-heading">
+            <h2 id="footer-about-heading">About CampusHub</h2>
+
+            <p>
+                CampusHub is a university portal concept designed to connect
+                students with courses, instructors, campus events, and
+                academic information.
+            </p>
+        </section>
+
+        <nav aria-label="Footer navigation">
+            <h2>Quick Links</h2>
+
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="instructors.html" aria-current="page">Instructors</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="announcements.html">Announcements</a></li>
+                <li><a href="schedule.html">Schedule</a></li>
+            </ul>
+        </nav>
+
+        <address>
+            CampusHub University Portal<br>
+            Student Services Office<br>
+            Email:
+            <a href="mailto:info@campushub.example">info@campushub.example</a>
+        </address>
+
+        <p>
+            <small>
+                &copy; 2026 CampusHub. Educational demonstration project.
+            </small>
+        </p>
+    </footer>
+
+</body>
+</html>
