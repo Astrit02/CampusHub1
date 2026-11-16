@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 80" role="img" aria-labelledby="title desc">
+  <title id="title">CampusHub logo</title>
+  <desc id="desc">Blue campus square with letter C and campus name.</desc>
+  <rect width="240" height="80" rx="16" fill="#102a43"/>
+  <rect x="14" y="12" width="52" height="52" rx="12" fill="#2563eb"/>
+  <path d="M32 22h18c8 0 14 6 14 14s-6 14-14 14H32V22zm10 8v12h8c4 0 6-3 6-6s-2-6-6-6h-8z" fill="#fff"/>
+  <text x="86" y="48" fill="#ffffff" font-size="28" font-family="Arial, Helvetica, sans-serif" font-weight="700">CampusHub</text>
+</svg>
